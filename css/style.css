@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.buttn {
+    background-color: aquamarine;
+    padding: 10px 12px;
+    color: #000;
+    border: none;
+}
+.accordian-content {
+    display: none;
+}
+/* .accordian-content.open {
+    display: block;
+
+} */
+.accordian-title.active{
+    background-color: #000000;
+    color: #ffffff;
+}
+.mydiv {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.mydiv.active {
+    background-color: greenyellow;
+}
+.mydiv1{
+    width: 200px;
+    height: 200px;
+    background-color: #548b79;
+}
+.mydiv1.active1 {
+    background-color: rgb(47, 248, 255);
+}
+.mydiv2{
+    width: 200px;
+    height: 200px;
+    background-color: #639ec0;
+}
+.mydiv2.active2 {
+    background-color: grey;
+}
